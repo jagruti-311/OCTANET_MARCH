@@ -1,0 +1,64 @@
+<html>
+<head>
+<script type="text/javascript">
+function validation()
+{
+ if (document.getElementById("fname").value==" " )
+{
+alert("please Enter your Name: ");
+}
+else if(document.getElementById("pass1").value ==" " )
+{
+alert("please enter your password: ");
+}
+else if(document.getElementById("pass1").value!=
+(document.getElementById("pass2").value)
+ {
+alert("please enter correct password:");
+}
+else if(document.getElementById("address").value==" ")
+{
+alert ("please enter your address: ");
+}
+else
+{
+alert("form has been submitted ");
+}
+}
+</script>
+<style>
+h3{
+color:blue;
+}
+</style>
+</head>
+<body>
+<h3><U>Contact_us</U></h3>
+<p>
+“Have questions? Shoot us an Email.”<br><br>
+Our email id:- tanishqabc@gmail.com<br><br>
+If any queries about jwelleries or price you can contact us via call also.
+Our contact no: +915283863883863.<br><br>
+</p>
+<br><br><br><br><br><br>
+<form>
+<p align="centre">
+<p >
+<b>Registration Form</b> </p>
+Username:<input type="text" id="fname">
+<br><br>
+Enter password :<input type="text" id="pass1">
+<br><br>
+Enter confirm password :<input type="text" id="pass2">
+<br><br>
+Address:<textarea row ="2"cols="10" id="address">
+</textarea>
+<br><br>
+<input type="button" value="submit" onclick="validation()">
+<br><br>
+<input type="reset" value="clear all">
+<br><br>
+</p>
+</form>
+</body>
+</html>
