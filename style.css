@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: orange; /* Change background color to lavender */
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: yellow; /* Change background color of container to beige */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px; /* Add margin bottom to create space */
+}
+
+.input-container {
+  display: flex; /* Align input and button horizontally */
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1; /* Take remaining space */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  display: flex; /* Align checkbox and task text horizontally */
+  align-items: center; /* Align vertically */
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px; /* Add space between checkbox and task text */
+}
